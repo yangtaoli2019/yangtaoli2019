@@ -1,5 +1,6 @@
 data = xlsread ('Surveillance.csv'); % COVID-19 Surveillance Data Set
-S ={'s1','s2','s3','s4','s5','s6','s7'}; tau=[];
+S ={'s1','s2','s3','s4','s5','s6','s7'}; 
+tau=[];
 function  KS=KST(data,S);
 [x,y]=size(data);
 Q=1:x;
